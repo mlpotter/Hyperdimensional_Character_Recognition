@@ -1,20 +1,20 @@
-Recognition Performance on MNIST Binarized (small version, better performance with large version) matching 
+Recognition Performance on MNIST Binarized (large version, similar performance with small version) matching 
 `Performance Analysis of Hyperdimensional Computing for Character Recognition`.
 ```
               precision    recall  f1-score   support
 
-           0       0.97      0.94      0.96       105
-           1       0.82      0.45      0.58       110
-           2       0.77      0.82      0.80       105
-           3       0.77      0.79      0.78       109
-           4       0.88      0.92      0.90       111
-           5       0.78      0.83      0.80       109
-           6       0.95      0.95      0.95       109
-           7       0.85      0.90      0.87       108
-           8       0.64      0.61      0.62       104
-           9       0.64      0.83      0.73       109
+           0       0.91      0.85      0.88      4153
+           1       0.76      0.95      0.85      4678
+           2       0.86      0.75      0.80      4239
+           3       0.73      0.77      0.75      4246
+           4       0.75      0.82      0.79      4098
+           5       0.69      0.67      0.68      3787
+           6       0.87      0.83      0.85      4103
+           7       0.87      0.83      0.85      4388
+           8       0.80      0.71      0.75      4145
+           9       0.74      0.74      0.74      4163
 
-    accuracy                           0.80      1079
-   macro avg       0.81      0.80      0.80      1079
-weighted avg       0.81      0.80      0.80      1079
+    accuracy                           0.80     42000
+   macro avg       0.80      0.79      0.79     42000
+weighted avg       0.80      0.80      0.80     42000
 ```
